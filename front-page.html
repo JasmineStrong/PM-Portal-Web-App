@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v3.0.1/modern-normalize.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <div id="loader-wrapper" class="bg-white position-fixed top-0 z-3 w-100 h-100 text-center">
+    <div class="spinner-border mt-5" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <header>
+		<div class="brand-bar">
+		<div class="container">
+			<div class="navbar nav-head">
+			<a class="logo-wrap" href="/">
+			<div class="brand-wrapper">
+				<div class="brand-logo">
+				<span class="logo">
+				<img alt="Johns Hopkins University Logo" src="assets/img/JHM_logo_white.svg" /></span>
+			</div>
+			<div class="brand-name"><span class="title">inHealth Precision Medicine </span></div>
+			</div>
+				</a>
+				<div class="utility-menu">
+					<a class="btn btn-primary btn-yellow nav-explore" href="#">Explore OMOP Data</a>
+					<a class="btn btn-primary btn-green nav-help" target="_blank" href="#">Help Center</a>
+					<a class="btn btn-primary btn-dk_blue nav-contact" href="/contact">Contact Us</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</header>
+
+  <nav class="navbar navbar-expand-lg main-navigation" role="navigation">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="jumbotron">
+	  <div class="jumbotron-inner-wrap">
+		  <span class="pre-text">johns hopkins inhealth precision medicine</span>
+		  <h1>Intelligent Health . Innovative Health .</h1>
+	  </div>
+  </section>
+  <main id="mainContent" role="main">
+    <section class="section-content">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="container">
+						<img class="img-fluid" src="assets/img/inhealth-pm.png" alt="inHealth Precision Medicine" />
+					</div>
+				</div>
+				<div class="col">
+					<div class="container">
+						<h2>inHealth Precision Medicine</h2>
+						<p>inHealth Precision Medicine at Johns Hopkins is whole-person medicine: constructing the understanding of patient subgroups at the most granular level, drawing from multiple insights and disease-specific expertise. As one of the country’s earliest learning health systems, inHealth Precision Medicine is part of the Johns Hopkins University School of Medicine's deep commitment to help physicians and clinician scientists learn from their patients, study diseases, and better characterize sub-groups of populations. The result is the opportunity to develop more precise care for every patient.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section class="section-content cta-block-orange">
+		<div class="container">
+			<h2>Integrating Health Data to Enable Better Care</h2>
+			<p>The Precision Medicine Analytics Platform (PMAP), a cloud-based tool offered by inHealth, is an engine to accelerate biomedical research that provides opportunities to develop more precise care for every patient.</p>
+			<a href="#" class="btn btn-primary bg-yellow">Learn More</a>
+		</div>  
+	</section>
+    <section class="section-content">
+	  <div class="container text-center">
+		<h2>Discover Your Data Stream</h2>
+		<p> Explore current and upcoming multi-modal data streams to further develop your research. Access data from one central database to more easily find information. </p>
+		<div class="grid">
+			<div class="grid-item text-center">
+				<div class="icon-box">
+					<img class="img-fluid" src="assets/img/icon-epic-emr.svg" />
+					<h3>Epic EMR Clinical Data</h3>
+				</div>
+			</div>
+			<div class="grid-item text-center">
+				<div class="icon-box">
+					<img class="img-fluid" src="assets/img/icon-genomic-molecular-data.svg" />
+					<h3>Genomic &amp; Molecular Data</h3>
+				</div>
+			</div>
+			<div class="grid-item text-center">
+				<div class="icon-box">
+					<img class="img-fluid" src="assets/img/icon-functional-monitoring.svg" />
+					<h3>Functional Monitoring &amp; Longitudinal Data</h3>
+				</div>
+			</div>
+			<div class="grid-item text-center disabled">
+				<div class="icon-box">
+					<img class="img-fluid" src="assets/img/icon-financial-operational.svg" />
+					<h3>Financial &amp; Operational Data</h3>
+				</div>
+				<h6>Future Offering</h6>
+			</div>
+			<div class="grid-item text-center disabled">
+				<div class="icon-box">
+					<img class="img-fluid" src="assets/img/icon-digital-pathology.svg" />
+					<h3>Digital Pathology Imaging Data</h3>
+				</div>
+				<h6>Future Offering</h6>
+			</div>
+			<div class="grid-item text-center disabled">
+				<div class="icon-box">
+					<img class="img-fluid" src="assets/img/icon-digital-radiology.svg" />
+					<h3>Digital Radiology Imaging Data</h3>
+				</div>
+				<h6>Future Offering</h6>
+			</div>
+		</div>
+	  </div>
+	  </section>
+
+	  <section class="section-content cta-block-blue">
+		<div class="container">
+			<h2 class="text-center">Building a Healthcare Research Engine</h2>
+			<p>The Precision Medicine Analytics Platform (PMAP) has reached critical mass with an ever-growing discovery capacity. Our goal is to provide all Johns Hopkins researchers interested in engaging with clinical data.</p>
+			<div class="row m-4">
+				<div class="col">
+					<div class="list">
+						<div class="list-item">
+							<div class="icon-box-h">
+								<img class="img-fluid" src="assets/img/icon-build-healthcare-research-engine.svg" />
+								<div class="text">
+									<h4>Explore Data</h4>
+									<p>Explore merged data from disparate systems.</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="icon-box-h">
+								<img class="img-fluid" src="assets/img/icon-build-healthcare-research-engine.svg" />
+								<div class="text">
+									<h4>Translate Insights</h4>
+									<p>Translate discoveries into actionable solutions to advance clinical care.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<img class="img-fluid m3" style="max-width: 400px;" src="assets/img/image-build-healthcare-research-engine.svg" />
+				</div>
+			</div>
+		</div>  
+	</section>
+
+	  <section class="section-content">
+		  <div class="container">
+			  <div class="purple-container">
+				  <div class="inner-wrap">
+					<h2 class="text-center">Join Our Growing Research Community</h2>
+					  <p>Explore ways to collaborate, communicate, and learn from the PMAP user community. </p>
+					  <a href="#" class="btn btn-outline-primary">Learn More</a>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+	  <section class="section-content cta-block-green">
+		<div class="container">
+			<div class="custom-image-right-box">
+				<div class="text">
+					<h2>News &amp; Events</h2>
+					<p>Learn about the latest precision medicine research-related news and find upcoming in person and virtual events taking place at Johns Hopkins.</p>
+					<a href="#" class="btn btn-primary bg-yellow ext-link">Learn More</a>
+				</div>
+				<div class="image">
+					<img class="img-fluid" src="assets/img/news-events-image.png" />
+				</div>
+			</div>
+		</div>  
+	</section>
+	<section class="section-content cta-block-yellow">
+		<div class="container">
+		  <h2 class="text-center">Stay Informed</h2>
+		<p>Interested in the latest precision medicine news and events happening at Johns Hopkins?  Join our email list to receive quarterly program and product updates.</p>
+		<div class="form-elements">
+			<input type="text" name="email-address"/>
+		</div>
+		<a href="#" class="btn btn-primary">Subscribe to Newsletters</a>
+		</div>
+	</section>
+  </main>
+  <footer>
+	  <div class="container">
+		  <div class="row">
+			  <div class="col">
+				  <img class="img-fluid" src="assets/img/footer-jhm-logo.png" alt="" />
+			  </div>
+			  <div class="col social-links">
+				<a class="social-icon fb" href="#">F</a>
+				<a class="social-icon x" href="#">X</a>
+				<a class="social-icon in" href="#">in</a>
+				<a class="social-icon ig" href="#">IG</a>
+			  </div>
+		  </div>
+	  	<hr/>
+    	<small>Copyright © <script>document.write(new Date().getFullYear())</script> The Johns Hopkins University, The Johns Hopkins Hospital, and Johns Hopkins Health System. All rights reserved.</small>
+	  </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(window).on('load', function() {
+      $("#loader-wrapper").fadeOut(700);
+    });
+  </script>
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
